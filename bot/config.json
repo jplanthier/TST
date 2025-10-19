@@ -9,3 +9,4 @@
 "macd": {"fast": 12, "slow": 26, "signal": 9, "enabled": true}
 },
 "paper": {"starting_balance": 10000.0, "risk_per_trade_pct": 1.0}
+}
