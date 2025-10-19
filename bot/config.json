@@ -1,1 +1,11 @@
-
+{
+"default_symbol": "BTCUSDT",
+"timeframes": ["1h", "4h", "1d"],
+"default_timeframe": "4h",
+"auto_interval_minutes": 30,
+"indicators": {
+"ema": {"fast": 20, "mid": 50, "slow": 200, "enabled": true},
+"rsi": {"length": 14, "enabled": true},
+"macd": {"fast": 12, "slow": 26, "signal": 9, "enabled": true}
+},
+"paper": {"starting_balance": 10000.0, "risk_per_trade_pct": 1.0}
